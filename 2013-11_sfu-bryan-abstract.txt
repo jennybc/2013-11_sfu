@@ -1,0 +1,21 @@
+Jennifer Bryan
+Associate Professor
+Dept of Statistics and the Michael Smith Labs, UBC
+http://www.stat.ubc.ca/~jenny/
+
+Talk at SFU Friday November 29, 2013
+
+Title: Reproducible research, open science, and all that good stuff
+for people who use R to do stats
+
+There is a huge buzz these days around changing practices in all
+aspects of data analysis. I will go over some recent exciting
+developments that are particularly relevant for the statistics
+community, especially for users of R. We'll talk about R Markdown, the
+knitr package, handy features of the RStudio IDE, and Git(Hub). And
+how to get all of these things working together! The first 45 minutes
+will be a somewhat conventional talk, perhaps with some demos, with
+many opportunities for questions and discussion. Then we will have
+about an hour for a short hands-on workshop for anyone who can bring a
+laptop and wants to try these things out! Keep your eyes open for
+forthcoming instructions about what to install in advance.
