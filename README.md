@@ -46,9 +46,9 @@ Sign up for a free account at [Rpubs.com](http://rpubs.com). This will allow you
 
 ## Optional: get an account on GitHub
 
-We will not be able to delve deeply into version control in this short workshop. But we will spend some time looking at Git and GitHub, so if anyone wants to dip their toe in, go ahead and get an account on GitHub. This is completely optional and costs nothing.
+We will not be able to delve deeply into version control in this short workshop. But we will spend some time looking at Git and GitHub, so if anyone wants to dip their toe in, go ahead and get an account on GitHub. This is completely optional and costs nothing. Go here: [https://github.com](https://github.com).
 
-Academics may want to sign up for an educational account at [github.com/edu](https://github.com/edu). What is different between an educational account and a regular account? With a regular account you must pay for *private* repositories (public repositories are free and unlimited). With an educational account, you get a small number of private repositories free for a couple of years.
+Students may want to get an educational account at [github.com/edu](https://github.com/edu). What is different between an educational account and a regular account? With a regular account you must pay for *private* repositories (public repositories are free and unlimited). With an educational account, you get a small number of private repositories free for a couple of years.
 
 ## Very very optional: install Git
 
