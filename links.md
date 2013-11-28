@@ -32,3 +32,9 @@ How to change the CSS used when R markdown is converted to HTML
   * [Step-by-step instructions](http://www.stat.ubc.ca/~jenny/STAT545A/topic10_tablesCSS.html) from Jenny Bryan's STAT 545A course
   * <http://www.rstudio.com/ide/docs/authoring/markdown_custom_rendering>
   
+[RPubs](http://rpubs.com)
+
+  * [Jenny's profile](http://rpubs.com/jennybc)
+    - [HTML based on simple-markdown.md](http://rpubs.com/jennybc/simple-markdown)
+    - [HTML based on simple-r-markdown.md](http://rpubs.com/jennybc/simple-r-markdown)
+    - [HTML based on `toyline.R`](http://rpubs.com/jennybc/toyline)
