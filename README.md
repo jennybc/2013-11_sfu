@@ -24,7 +24,7 @@ Install RStudio, a powerful user interface for R: <http://www.rstudio.com/ide/do
 
 * Put your cursor in the pane labelled Console, which is where you interact with the live R process. Create a simple object with code like `x <- 2 * 4` (followed by enter or return). Then inspect the `x` object by typing `x` followed by enter or return. Obviously you should see the value 8 print to screen. If yes, you are good to go.
 
-## Add-on packages
+### Add-on packages
 
 R is an extensible system and many people share useful code they have developed as a _package_ via CRAN and github.
 
@@ -40,17 +40,17 @@ We will also be joined by Scott Chamberlain from [rOpenSci](http://ropensci.org)
 install.packages(c("rplos", "tm"))
 ```
 
-## Optional but recommended: get an account on RPubs
+### Optional but recommended: get an account on RPubs
 
 Sign up for a free account at [Rpubs.com](http://rpubs.com). This will allow you to easily publish automatically generated reports, written in R Markdown or plain R, at the click of a button in RStudio.
 
-## Optional: get an account on GitHub
+### Optional: get an account on GitHub
 
 We will not be able to delve deeply into version control in this short workshop. But we will spend some time looking at Git and GitHub, so if anyone wants to dip their toe in, go ahead and get an account on GitHub. This is completely optional and costs nothing. Go here: [https://github.com](https://github.com).
 
 Students may want to get an educational account at [github.com/edu](https://github.com/edu). What is different between an educational account and a regular account? With a regular account you must pay for *private* repositories (public repositories are free and unlimited). With an educational account, you get a small number of private repositories free for a couple of years.
 
-## Very very optional: install Git
+### Very very optional: install Git
 
 This is more for the future, as we cannot cover Git in the workshop. But when you are ready, here are leads on installing Git (taken from <http://www.rstudio.com/ide/docs/version_control/overview>):
   * Windows: http://code.google.com/p/msysgit/
