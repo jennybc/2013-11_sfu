@@ -23,8 +23,12 @@ RStudio + R Markdown specifics:
 
   * <http://www.rstudio.com/ide/docs/authoring/using_markdown>
   * <http://www.rstudio.com/ide/docs/r_markdown>
-  * <http://www.rstudio.com/ide/docs/authoring/markdown_custom_rendering>
   * <http://www.rstudio.com/ide/docs/authoring/markdown_notebooks>
 
 Jeromy Anglim's blog post [Getting Started with R Markdown, knitr, and Rstudio 0.96](http://jeromyanglim.blogspot.ca/2012/05/getting-started-with-r-markdown-knitr.html)
 
+How to change the CSS used when R markdown is converted to HTML
+
+  * [Step-by-step instructions](http://www.stat.ubc.ca/~jenny/STAT545A/topic10_tablesCSS.html) from Jenny Bryan's STAT 545A course
+  * <http://www.rstudio.com/ide/docs/authoring/markdown_custom_rendering>
+  
