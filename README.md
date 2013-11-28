@@ -36,7 +36,7 @@ Please install the [`knitr` package](http://yihui.name/knitr/) for report genera
 install.packages("knitr", dependencies = TRUE)
 ```
 
-We will also be joined by Scott Chamberlain from [rOpenSci](http://ropensci.org), who will share a short demo. To follow along in this section, please install the packages `rplos` (for retrieving literature data from the Public Library of Science) and `tm` (for text mining) and `ggplot2`. Again, here is code that will do the installation:
+We will also be joined by Scott Chamberlain from [rOpenSci](http://ropensci.org), who will share a short demo. To follow along in this section, please install the packages `rplos` (for retrieving literature data from the Public Library of Science) and `tm` (for text mining) and `ggplot2` (visualization). Again, here is code that will do the installation:
 
 ```
 install.packages(c("rplos", "tm", "ggplot2"))
