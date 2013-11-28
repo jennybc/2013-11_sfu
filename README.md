@@ -10,6 +10,8 @@ Supporting documents for talk and workshop for SFU Statistics
 
 Part of a "[special Seminar series this fall](http://stat.sfu.ca/news/fallseminar.html), organized by and for students. To celebrate the International Year of Statistics and recognize the contribution of Statistics to society, the series will feature interdisciplinary speakers and talks with a career component." [PDF](http://stat.sfu.ca/content/dam/sfu/stat/news/seminar2013Fall.pdf) for the series
 
+Notes to self: [map](http://www.sfu.ca/content/dam/sfu/parking/images/Parking%20Map%20-%20Burnaby%20Campus.pdf) showing Shrum, IRMACS and parking
+
 ## Preparation for workshop
 
 ### R and RStudio
