@@ -12,4 +12,49 @@ quantitative trait loci (QTL) in experimental crosses
   * Repository for the [Leek group guide to R package development](https://github.com/jtleek/rpackages)
   * Repository for the book [Reproducible Research with R & RStudio](https://github.com/christophergandrud/Rep-Res-Book) by Christopher Gandrud, part of the CRC Press / Chapman & Hall R Series (2013). ISBN: 978-1466572843.
   * Repository for [a system the City of Chicago uses](https://github.com/corynissen/foodborne_classifier) to detect foodborne illness from tweets. Revolution Analytics [Blog post](http://blog.revolutionanalytics.com/2013/08/foodborne-chicago.html) about this. 
-  
+
+Check out some files, look at the commit history, read some issues. Questions?
+
+Try (or at least consider) these low-tech ways to get stuff from GitHub, without us getting into full-blown Git installation and GitHub configuration
+
+  * Get to a raw version of a file and save it to a local file "manually" (how will be OS and browser specific) 
+  * Use the Download ZIP button to get an entire repo
+  * Specific files you might want to grab
+    - this one!
+    - the [R Markdown file for the rOpenSci part of the workshop](https://github.com/SChamberlain/jennybryan/blob/master/ropensci_demo.Rmd)
+    - a basic R script [toyline.R](https://github.com/jennybc/STAT545A/blob/master/toyline.R)
+    
+You can actually edit repositories, in a manner of speaking, directly from the browser. JB could demo that.
+
+  * [GitHub flow in the browser](https://github.com/blog/1557-github-flow-in-the-browser)
+
+[R basics, workspace and working directory, RStudio projects](http://www.stat.ubc.ca/%7Ejenny/STAT545A/block01_basicsWorkspaceWorkingDirProject.html) -- an introductory tutorial from STAT 545A
+
+See slides for visual guidance on trying RStudio's Compile Notebook feature and converting R markdown to HTML.
+
+  * `stitch_rmd()` is kind of like RStudio's Compile Notebook
+  * `knit2html()` is kind of like RStudio's Knit HTML button
+
+[RPubs](http://rpubs.com)
+
+  * [Jenny's profile](http://rpubs.com/jennybc)
+    - [HTML based on simple-markdown.md](http://rpubs.com/jennybc/simple-markdown)
+    - [HTML based on simple-r-markdown.md](http://rpubs.com/jennybc/simple-r-markdown)
+    - [HTML based on `toyline.R`](http://rpubs.com/jennybc/toyline)
+  * Windows users may run into an SSL certificate problem when first attempting to upload to RPubs. Here is advice developed by the long suffering students in STAT 545A:
+    - Your basic solution can be found [here](http://support.rstudio.org/help/discussions/problems/2513-problem-with-publish-to-rpubs-windows-rstudio-096231)
+    - You will need to add the line `options(rpubs.upload.method = "internal")` to the file `Rprofile.site` which will live somewhere like this: `C:\Program Files\R\R-3.0.1\etc`. Yes take the `etc` __literally__. There is a directory with this name.
+    - You will need administrator access to edit this file, which you can get by right licking and choosing "Run as administrator" when you launch whatever you're going to use for editing.
+    - Do not edit something like this with (eeeeekkk) Word. Use Notepad or even the RStudio editor. Plain text editing!
+    - Another way to get permission to edit this file: Right click on the file, choose "Properties"--> "Security", and Edit to give "Full control" to "Users". Then you will be given the permission to edit the file.
+
+How to publish an R script or R Markdown file -- "source" -- as a [Gist](https://gist.github.com).
+
+  * You will need to sign in to [github](https://github.com)
+  * Go to <https://gist.github.com>.
+  * In the "name this file..." box, enter the name of the file.
+  * Copy the entire file to the clipboard, paste into the Gist box, and click the "Create Public Gist" button.
+  * Click on the "Permalink" button, in the upper right corner of the box containing your Gist (it looks like two links of a chain). 
+  * Capture the URL. Direct people to your Gist with this link.
+
+Repository for rOpenSci part of workshop: <https://github.com/SChamberlain/jennybryan>

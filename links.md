@@ -33,17 +33,6 @@ How to change the CSS used when R markdown is converted to HTML
   * <http://www.rstudio.com/ide/docs/authoring/markdown_custom_rendering>
   
 [RPubs](http://rpubs.com)
-
-  * [Jenny's profile](http://rpubs.com/jennybc)
-    - [HTML based on simple-markdown.md](http://rpubs.com/jennybc/simple-markdown)
-    - [HTML based on simple-r-markdown.md](http://rpubs.com/jennybc/simple-r-markdown)
-    - [HTML based on `toyline.R`](http://rpubs.com/jennybc/toyline)
-  * Windows users may run into an SSL certificate problem when first attempting to upload to RPubs. Here is advice developed by the long suffering students in STAT 545A:
-    - Your basic solution can be found [here](http://support.rstudio.org/help/discussions/problems/2513-problem-with-publish-to-rpubs-windows-rstudio-096231)
-    - You will need to add the line `options(rpubs.upload.method = "internal")` to the file `Rprofile.site` which will live somewhere like this: `C:\Program Files\R\R-3.0.1\etc`. Yes take the `etc` __literally__. There is a directory with this name.
-    - You will need administrator access to edit this file, which you can get by right licking and choosing "Run as administrator" when you launch whatever you're going to use for editing.
-    - Do not edit something like this with (eeeeekkk) Word. Use Notepad or even the RStudio editor. Plain text editing!
-    - Another way to get permission to edit this file: Right click on the file, choose "Properties"--> "Security", and Edit to give "Full control" to "Users". Then you will be given the permission to edit the file.
     
 Ram, K 2013. Git can facilitate greater reproducibility and increased transparency in science. Source Code for Biology and Medicine 2013 8:7. Go to the [associated github repo](https://github.com/karthikram/smb_git) to get the PDF (link at bottom of README) and to see a great example of how someone managed the process of writing a manuscript with git(hub).
 
