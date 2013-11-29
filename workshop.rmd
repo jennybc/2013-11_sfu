@@ -1,7 +1,15 @@
 Workshop outline
 ========================================================
 
-Look around [github.com](github.com) as just a reader/consumer.
+### Finish installation and prep
+
+Make sure you've got R, RStudio, `knitr`, `rplos`, `tm`, `ggplot2`. Full instructions [here](https://github.com/jennybc/2013-11_sfu)
+
+__Optional__ Sign up for [RPubs](RPubs.com)
+
+__Optional__ Sign up for [github.com](github.com)
+
+### Look around [github.com](github.com) as just a reader/consumer.
 
   * Repository for today's talk and workshop: <https://github.com/jennybc/2013-11_sfu>
   * Repository for rOpenSci part of workshop: <https://github.com/SChamberlain/jennybryan>
@@ -15,6 +23,8 @@ quantitative trait loci (QTL) in experimental crosses
 
 Check out some files, look at the commit history, read some issues. Questions?
 
+### Get a file from [github.com](github.com) without using Git (forgive me!)
+
 Try (or at least consider) these low-tech ways to get stuff from GitHub, without us getting into full-blown Git installation and GitHub configuration
 
   * Get to a raw version of a file and save it to a local file "manually" (how will be OS and browser specific) 
@@ -23,6 +33,8 @@ Try (or at least consider) these low-tech ways to get stuff from GitHub, without
     - this one!
     - the [R Markdown file for the rOpenSci part of the workshop](https://github.com/SChamberlain/jennybryan/blob/master/ropensci_demo.Rmd)
     - a basic R script [toyline.R](https://github.com/jennybc/STAT545A/blob/master/toyline.R)
+    - the simple Markdown file mentioned in the talk: [simple-markdown.md](https://github.com/jennybc/2013-11_sfu/blob/master/simple-markdown.md)
+    - the simple R Markdown file mentioned in the talk: [simple-r-markdown.rmd](https://github.com/jennybc/2013-11_sfu/blob/master/simple-r-markdown.rmd)
     
 You can actually edit repositories, in a manner of speaking, directly from the browser. JB could demo that.
 
@@ -30,10 +42,14 @@ You can actually edit repositories, in a manner of speaking, directly from the b
 
 [R basics, workspace and working directory, RStudio projects](http://www.stat.ubc.ca/%7Ejenny/STAT545A/block01_basicsWorkspaceWorkingDirProject.html) -- an introductory tutorial from STAT 545A
 
+### Make HTML from R and R Markdown files
+
 See slides for visual guidance on trying RStudio's Compile Notebook feature and converting R markdown to HTML.
 
   * `stitch_rmd()` is kind of like RStudio's Compile Notebook
   * `knit2html()` is kind of like RStudio's Knit HTML button
+
+### Publish HTML from R and R Markdown files on RPubs
 
 [RPubs](http://rpubs.com)
 
@@ -48,6 +64,8 @@ See slides for visual guidance on trying RStudio's Compile Notebook feature and 
     - Do not edit something like this with (eeeeekkk) Word. Use Notepad or even the RStudio editor. Plain text editing!
     - Another way to get permission to edit this file: Right click on the file, choose "Properties"--> "Security", and Edit to give "Full control" to "Users". Then you will be given the permission to edit the file.
 
+### Publish source as a Gist
+
 How to publish an R script or R Markdown file -- "source" -- as a [Gist](https://gist.github.com).
 
   * You will need to sign in to [github](https://github.com)
@@ -56,5 +74,7 @@ How to publish an R script or R Markdown file -- "source" -- as a [Gist](https:/
   * Copy the entire file to the clipboard, paste into the Gist box, and click the "Create Public Gist" button.
   * Click on the "Permalink" button, in the upper right corner of the box containing your Gist (it looks like two links of a chain). 
   * Capture the URL. Direct people to your Gist with this link.
+
+### Use `rplos` from [rOpenSci](http://ropensci.org) to analyze scientific literature
 
 Repository for rOpenSci part of workshop: <https://github.com/SChamberlain/jennybryan>
