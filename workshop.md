@@ -55,7 +55,7 @@ See slides for visual guidance on trying RStudio's Compile Notebook feature and 
 
   * [Jenny's profile](http://rpubs.com/jennybc)
     - [HTML based on simple-markdown.md](http://rpubs.com/jennybc/simple-markdown)
-    - [HTML based on simple-r-markdown.md](http://rpubs.com/jennybc/simple-r-markdown)
+    - [HTML based on simple-r-markdown.rmd](http://rpubs.com/jennybc/simple-r-markdown)
     - [HTML based on `toyline.R`](http://rpubs.com/jennybc/toyline)
   * Windows users may run into an SSL certificate problem when first attempting to upload to RPubs. Here is advice developed by the long suffering students in STAT 545A:
     - Your basic solution can be found [here](http://support.rstudio.org/help/discussions/problems/2513-problem-with-publish-to-rpubs-windows-rstudio-096231)
