@@ -44,6 +44,7 @@ Karl Broman's tutorial, aimed at stats / data science types: [An introduction to
 
 RStudio + Git(Hub)
   * <http://www.rstudio.com/ide/docs/version_control/overview>
+  * Blog post from The Molecular Ecologist on [using GitHub with R and RStudio](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/)
 
 Funnies
 
