@@ -1,5 +1,11 @@
-R Markdown rocks
-=====================================
+---
+title: "R Markdown rocks"
+author: "Jenny Bryan"
+date: "10 September, 2014"
+output:
+  html_document:
+    keep_md: TRUE
+---
 
 This is an R Markdown document.
 
@@ -10,7 +16,7 @@ head(x)
 
 See how the R code gets executed and a representation thereof appears in the document? `knitr` gives you control over how to represent all conceivable types of output. In case you care, then average of the `r length(x)` random normal variates we just generated is `r round(mean(x), 3)`. Those numbers are NOT hard-wired but are computed on-the-fly. As is this figure. No more copy-paste ... copy-paste ... oops forgot to copy-paste.
 
-```{r}
+```{r simple-density-plot}
 plot(density(x))
 ```
 
